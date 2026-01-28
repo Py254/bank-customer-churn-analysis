@@ -21,6 +21,10 @@ This project analyzes historical bank customer data to uncover patterns associat
 
 ## Tools Used
 - SQL for data exploration and segmentation
+## SQL Analysis
+All analysis queries used in this project can be found here:  
+[View SQL queries](sql/bank_churn_analysis.sql)
+
 
 ## Key Findings
 
