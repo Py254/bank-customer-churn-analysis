@@ -1,3 +1,6 @@
+-- Bank Customer Churn Analysis
+-- Core queries used to identify key drivers of churn
+
 -- Overall Churn Rate
 SELECT COUNT(*) AS total_customers,SUM(Exited) AS churned_customers, ROUND(AVG(Exited) * 100, 2) AS churn_rate_pct
 FROM bank_churn;
@@ -37,4 +40,3 @@ SELECT
 FROM bank_churn
 GROUP BY age_group
 ORDER BY age_group;
-
